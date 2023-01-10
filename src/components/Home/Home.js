@@ -64,7 +64,7 @@ const Home = () => {
           Data Science & Machine Learning Enthusiast | Open Source Contributor |
           Web Developer | Technical Writer
         </h2>
-        <Link to="/contact" className="flat-button">
+        <Link to="mailto:srinikethcr7@gmail.com" className="flat-button">
           CONTACT ME
         </Link>
       </div>
