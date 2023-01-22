@@ -5,6 +5,7 @@ import React from 'react'
 const BlogPost = () => {
   return (
     <div className="blog">
+        <h1 className="blog-heading">Blog posts</h1>
         <div className="card-container">
             <div className="card">
                 <h3>- Blog 1 -</h3>
