@@ -2,14 +2,14 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
-import BlogPost from '../components/BlogPost';
+import Blog from '../components/Blog';
 
 const Blogs = () => {
   return (
     <div>
       <Navbar />
       <Header content={{ heading: 'Blogs', text: 'See my published writings' }} />
-      <BlogPost />
+      <Blog />
       <Footer />
     </div>
   )
