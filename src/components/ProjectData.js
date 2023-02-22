@@ -27,6 +27,13 @@ const ProjectCardData = [
         view: "https://github.com/srini047/HackTest",
         source: "https://hacktestapi.herokuapp.com"
     },
+    {
+        imgsrc: "https://user-images.githubusercontent.com/81156510/219946458-0481d137-1111-4f67-bd74-59263958abf8.png",
+        title: "HackProInit",
+        text: "An AI-powered one-stop platform to help kickstart your next hackathon/college project. Utilizes the power of Cohere, Twilio, GitHub, and OpenAI. Made use of React.js, Node.js, Express.js, Ant Design, Bootstrap.",
+        view: "https://devpost.com/software/hackproinit",
+        source: "https://github.com/srini047/hackathon-projects-backend"   
+    }
 ]
 
 export default ProjectCardData
