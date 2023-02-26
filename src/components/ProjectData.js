@@ -33,7 +33,14 @@ const ProjectCardData = [
         text: "An AI-powered one-stop platform to help kickstart your next hackathon/college project. Utilizes the power of Cohere, Twilio, GitHub, and OpenAI. Made use of React.js, Node.js, Express.js, Ant Design, Bootstrap.",
         view: "https://devpost.com/software/hackproinit",
         source: "https://github.com/srini047/hackathon-projects-backend"   
-    }
+    },
+    {
+        imgsrc: "https://user-images.githubusercontent.com/81156510/221420531-489f1381-e185-4630-965f-111d7d607c66.png",
+        title: "Travelogue",
+        text: "One-stop platform to connect with guides, tourists, & ",
+        view: "http://devpost.com/software/travelogue-q1eyzh",
+        source: "https://github.com/srini047/travelogue-backend"   
+    },
 ]
 
 export default ProjectCardData
