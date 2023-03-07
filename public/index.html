@@ -9,6 +9,20 @@
       name="description"
       content="Web site created using create-react-app"
     />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-M71HNLYG0P"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-M71HNLYG0P");
+    </script>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
@@ -27,86 +41,86 @@
     <title>React App</title>
     <style>
       * {
-          font-family: 'Poppins', sans-serif;
+        font-family: "Poppins", sans-serif;
       }
       body {
-          margin: 0;
-          padding: 0;
-          box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
       }
 
       .center {
-          height: 100vh;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background: #1a1e29;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #1a1e29;
       }
 
       .wave {
-          width: 5px;
-          height: 100px;
-          background: linear-gradient(#FF5454, #C685D6);
-          margin: 10px;
-          animation: wave 1s linear infinite;
-          border-radius: 20px;
+        width: 5px;
+        height: 100px;
+        background: linear-gradient(#ff5454, #c685d6);
+        margin: 10px;
+        animation: wave 1s linear infinite;
+        border-radius: 20px;
       }
 
       .wave:nth-child(2) {
-          animation-delay: 0.1s;
+        animation-delay: 0.1s;
       }
 
       .wave:nth-child(3) {
-          animation-delay: 0.2s;
+        animation-delay: 0.2s;
       }
 
       .wave:nth-child(4) {
-          animation-delay: 0.3s;
+        animation-delay: 0.3s;
       }
 
       .wave:nth-child(5) {
-          animation-delay: 0.4s;
+        animation-delay: 0.4s;
       }
 
       .wave:nth-child(6) {
-          animation-delay: 0.5s;
+        animation-delay: 0.5s;
       }
 
       .wave:nth-child(7) {
-          animation-delay: 0.6s;
+        animation-delay: 0.6s;
       }
 
       .wave:nth-child(8) {
-          animation-delay: 0.7s;
+        animation-delay: 0.7s;
       }
 
       .wave:nth-child(9) {
-          animation-delay: 0.8s;
+        animation-delay: 0.8s;
       }
 
       .wave:nth-child(10) {
-          animation-delay: 0.9s;
+        animation-delay: 0.9s;
       }
 
       @keyframes wave {
-          0% {
-              transform: scale(0);
-          }
+        0% {
+          transform: scale(0);
+        }
 
-          50% {
-              transform: scale(1);
-          }
+        50% {
+          transform: scale(1);
+        }
 
-          100% {
-              transform: scale(0);
-          }
+        100% {
+          transform: scale(0);
+        }
       }
 
       p {
-          color: white;
-          font-size: 35px;
+        color: white;
+        font-size: 35px;
       }
-  </style>
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -122,9 +136,9 @@
         <div class="wave"></div>
         <div class="wave"></div>
         <div class="wave"></div>
-        <br>
+        <br />
         <p>Portfolio loading</p>
-    </div>
+      </div>
     </div>
     <!--
       This HTML file is a template.
