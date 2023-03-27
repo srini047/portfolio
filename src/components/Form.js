@@ -8,7 +8,7 @@ const Form = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    console.log(process.env.EMAILJS_SERVICE_ID)
+    
     emailjs
       .sendForm(
         "service_p37k27",
@@ -18,10 +18,10 @@ const Form = () => {
       )
       .then(
         (result) => {
-          console.log(result.text);
+          alert("Thanks for reaching out!! Will get back to you shortly!");
         },
         (error) => {
-          console.log(error.text);
+          alert("Oops, something is wrong. Please try again.");
         }
       );
   };
