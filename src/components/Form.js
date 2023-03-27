@@ -8,7 +8,7 @@ const Form = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
-    
+
     emailjs
       .sendForm(
         "service_p37k27",
@@ -17,29 +17,28 @@ const Form = () => {
         "4x5-6c2l5jd105FhJ"
       )
       .then(
-        (result) => {
+        () => {
           alert("Thanks for reaching out!! Will get back to you shortly!");
         },
         (error) => {
-          alert("Oops, something is wrong. Please try again.");
+          alert(`Oops, ${error}. Please try again.`);
         }
       );
   };
 
   return (
-    <div className="form">
-      <form ref={form} onSubmit={sendEmail}>
-        <label>Your Name</label>
-        <input type="text"></input>
-        <label>Your Email</label>
-        <input type="email"></input>
-        <label>Your Message to share</label>
-        <textarea rows="6" placeholder="Type your message here..."></textarea>
-        <button className="btn">
-          Submit <AiFillRightCircle size={20} />
-        </button>
-      </form>
-    </div>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      {/* <input type="submit" value="Send" /> */}
+      <button className="btn">
+        Submit <AiFillRightCircle size={20} />
+      </button>
+    </form>
   );
 };
 

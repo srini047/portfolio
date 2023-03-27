@@ -4,6 +4,7 @@ import { MdAlternateEmail, MdPhone, MdLocationOn } from "react-icons/md";
 import { GoMarkGithub } from "react-icons/go";
 import { GrTwitter, GrLinkedin } from "react-icons/gr";
 import { SiFiverr } from "react-icons/si";
+import { BsCalendarEvent } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -67,6 +68,12 @@ const Footer = () => {
             <a href="https://www.fiverr.com/share/Qjppzp" target="_blank" rel="noreferrer">
               <SiFiverr
                 size={40}
+                style={{ color: "white", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://cal.com/srini047/" target="_blank" rel="noreferrer">
+              <BsCalendarEvent
+                size={30}
                 style={{ color: "white", marginRight: "1rem" }}
               />
             </a>
