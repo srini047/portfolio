@@ -1,24 +1,44 @@
 import "./Form.css";
-import React from "react";
+import React, { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import { AiFillRightCircle } from "react-icons/ai";
 
 const Form = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_p37k27",
+        "template_p37k27",
+        form.current,
+        "4x5-6c2l5jd105FhJ"
+      )
+      .then(
+        () => {
+          alert("Thanks for reaching out!! Will get back to you shortly!");
+        },
+        (error) => {
+          alert(`Oops, ${error}. Please try again.`);
+        }
+      );
+  };
+
   return (
-    <div className="form">
-      <form>
-        <label>Your Name</label>
-        <input type="text"></input>
-        <label>Email</label>
-        <input type="email"></input>
-        <label>Subject</label>
-        <input type="text"></input>
-        <label>Message </label>
-        <textarea rows="6" placeholder="Type your message here..."></textarea>
-        <button className="btn">
-          Submit <AiFillRightCircle size={20} />
-        </button>
-      </form>
-    </div>
+    <form ref={form} onSubmit={sendEmail}>
+      <label>Name</label>
+      <input type="text" name="user_name" />
+      <label>Email</label>
+      <input type="email" name="user_email" />
+      <label>Message</label>
+      <textarea name="message" />
+      {/* <input type="submit" value="Send" /> */}
+      <button className="btn">
+        Submit <AiFillRightCircle size={20} />
+      </button>
+    </form>
   );
 };
 
