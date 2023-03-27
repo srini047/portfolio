@@ -11,10 +11,10 @@ const Form = () => {
     console.log(process.env.EMAILJS_SERVICE_ID)
     emailjs
       .sendForm(
-        process.env.EMAILJS_SERVICE_ID,
-        process.env.EMAILJS_TEMPLATE_ID,
+        "service_p37k27",
+        "template_p37k27",
         form.current,
-        process.env.EMAILJS_PUBLIC_KEY
+        "4x5-6c2l5jd105FhJ"
       )
       .then(
         (result) => {
