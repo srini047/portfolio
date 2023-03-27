@@ -33,11 +33,11 @@ const Footer = () => {
           <div className="email">
             <h4>
               <MdAlternateEmail
-                size={40}
+                size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
-              <a href="mailto:sriniketh.offl@gmail.com">
-                sriniketh.offl@gmail.com
+              <a href="mailto:srinikethcr7@gmail.com">
+                srinikethcr7@gmail.com
               </a>
             </h4>
           </div>
@@ -66,7 +66,7 @@ const Footer = () => {
             </a>
             <a href="https://www.fiverr.com/share/Qjppzp" target="_blank" rel="noreferrer">
               <SiFiverr
-                size={30}
+                size={40}
                 style={{ color: "white", marginRight: "1rem" }}
               />
             </a>
