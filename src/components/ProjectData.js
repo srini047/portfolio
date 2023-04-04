@@ -1,5 +1,19 @@
 const ProjectCardData = [
     {
+        imgsrc: "https://user-images.githubusercontent.com/81156510/219946458-0481d137-1111-4f67-bd74-59263958abf8.png",
+        title: "HackProInit",
+        text: "An AI-powered one-stop platform to help kickstart your next hackathon/college project. Utilizes the power of Cohere, Twilio, GitHub, and OpenAI. Made use of React.js, Node.js, Express.js, Ant Design, Bootstrap.",
+        view: "https://devpost.com/software/hackproinit",
+        source: "https://github.com/srini047/hackathon-projects-backend"   
+    },
+    {
+        imgsrc: "https://user-images.githubusercontent.com/81156510/151658225-7c2df2c6-a9ab-454e-991c-62eaf730d96c.png",
+        title: "HackTest API",
+        text: "An REST API built to fetch all the details regarding latest Hackathons and Coding Contests",
+        view: "https://github.com/srini047/HackTest",
+        source: "https://hacktestapi.herokuapp.com"
+    },
+    {
         imgsrc: "https://user-images.githubusercontent.com/81156510/213933187-2200364d-c15f-449c-a2e2-bfa563cccd18.png",
         title: "HackTest API",
         text: "Implemented a parking assistant that helps in finding parking lots in congested places using OpenCV, Mask RCNN, Twilio. Winner of Twilio Track Prize – Hack6iX                                                             ",
@@ -21,26 +35,12 @@ const ProjectCardData = [
         source: "https://github.com/srini047/text-based-sentiment-analysis"
     },
     {
-        imgsrc: "https://user-images.githubusercontent.com/81156510/151658225-7c2df2c6-a9ab-454e-991c-62eaf730d96c.png",
-        title: "HackTest API",
-        text: "An REST API built to fetch all the details regarding latest Hackathons and Coding Contests",
-        view: "https://github.com/srini047/HackTest",
-        source: "https://hacktestapi.herokuapp.com"
-    },
-    {
-        imgsrc: "https://user-images.githubusercontent.com/81156510/219946458-0481d137-1111-4f67-bd74-59263958abf8.png",
-        title: "HackProInit",
-        text: "An AI-powered one-stop platform to help kickstart your next hackathon/college project. Utilizes the power of Cohere, Twilio, GitHub, and OpenAI. Made use of React.js, Node.js, Express.js, Ant Design, Bootstrap.",
-        view: "https://devpost.com/software/hackproinit",
-        source: "https://github.com/srini047/hackathon-projects-backend"   
-    },
-    {
         imgsrc: "https://user-images.githubusercontent.com/81156510/221420531-489f1381-e185-4630-965f-111d7d607c66.png",
         title: "Travelogue",
-        text: "One-stop platform to connect with guides, tourists, & ",
+        text: "One-stop platform to connect with guides, & tourists to discover, explore, and interact with native folks and their culture. Used MERN stack to build the application and made use of Cohere and Twilio APIs to enhance the user experience and provide an AI touch to the application.",
         view: "http://devpost.com/software/travelogue-q1eyzh",
         source: "https://github.com/srini047/travelogue-backend"   
     },
 ]
 
-export default ProjectCardData
+export default ProjectCardData;
