@@ -15,7 +15,7 @@ const ProjectCardData = [
     },
     {
         imgsrc: "https://user-images.githubusercontent.com/81156510/213933187-2200364d-c15f-449c-a2e2-bfa563cccd18.png",
-        title: "HackTest API",
+        title: "Parking Assistant using OpenCV",
         text: "Implemented a parking assistant that helps in finding parking lots in congested places using OpenCV, Mask RCNN, Twilio. Winner of Twilio Track Prize – Hack6iX                                                             ",
         view: "https://devpost.com/software/parking-assistant-using-opencv",
         source: "https://github.com/srini047/Hack6iX"
