@@ -25,7 +25,7 @@ const AboutContent = () => {
       </div>
       <div className="right">
         <div className="img-container">
-          <img src="" alt="tech stack" />
+          <img src="https://user-images.githubusercontent.com/81156510/230940009-bfcfa80e-4a9b-4e4f-842d-d3bb1f5dd521.png" alt="tech stack" />
         </div>
       </div>
     </div>
