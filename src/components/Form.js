@@ -11,14 +11,14 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_p37k27",
-        "template_p37k27",
+        "service_p37k27",   // Service ID
+        "template_p37k27",  // Template ID
         form.current,
-        "4x5-6c2l5jd105FhJ"
+        "4x5-6c2l5jd105FhJ" // User ID
       )
       .then(
         () => {
-          alert("Thanks for reaching out!! Will get back to you shortly!");
+          alert("Thanks for reaching out!! I'll get back to you shortly!");
         },
         (error) => {
           alert(`Oops, ${error}. Please try again.`);
