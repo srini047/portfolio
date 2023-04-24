@@ -1,6 +1,6 @@
 import "./Footer.css";
 import React from "react";
-import { MdAlternateEmail, MdPhone, MdLocationOn } from "react-icons/md";
+import { MdAlternateEmail, MdLocationOn } from "react-icons/md";
 import { GoMarkGithub } from "react-icons/go";
 import { GrTwitter, GrLinkedin } from "react-icons/gr";
 import { SiFiverr } from "react-icons/si";
@@ -22,7 +22,8 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          <div className="phone">
+          {/* If you want to add phone number import MdPhone and comment down the lines below. */}
+          {/* <div className="phone">
             <h4>
               <MdPhone
                 size={20}
@@ -30,7 +31,7 @@ const Footer = () => {
               />
               <a href="tel:+916385685916">Call me at +91 6385685916</a>
             </h4>
-          </div>
+          </div> */}
           <div className="email">
             <h4>
               <MdAlternateEmail
