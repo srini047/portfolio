@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import AboutContent from '../components/AboutContent';
+import ScrollTop from '../components/ScrollTop';
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
       <Header content={{ heading: 'About Me', text: 'Passionate developer...' }} />
       <AboutContent />
       <Footer />
+      <ScrollTop />
     </div>
   )
 }

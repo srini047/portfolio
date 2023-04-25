@@ -4,6 +4,7 @@ import HeroImg from "../components/HeroImg";
 import Project from "../components/Project";
 // import Blog from '../components/Blog';
 import Footer from '../components/Footer';
+import ScrollTop from '../components/ScrollTop';
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Project />
       {/* <Blog /> */}
       <Footer />
+      <ScrollTop />
     </div>
 
   )

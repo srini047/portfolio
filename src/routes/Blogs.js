@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import Blog from '../components/Blog';
+import ScrollTop from '../components/ScrollTop';
 
 const Blogs = () => {
   return (
@@ -11,6 +12,7 @@ const Blogs = () => {
       <Header content={{ heading: 'Blogs', text: 'See my published writings' }} />
       <Blog />
       <Footer />
+      <ScrollTop />
     </div>
   )
 }
