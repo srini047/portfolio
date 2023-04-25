@@ -208,9 +208,15 @@ const BlogPostData = [
   },
   {
     title: "Sentiment Analysis using Python",
-    platform: "",
+    platform: "Hashnode",
     tags: ["data-science", "machine-learning", "nlp"],
     link: "https://blog.sriniketh.design/sentiment-analysis-using-python",
+  },
+  {
+    title: "Send SMS using Twilio for G-Calendar Events using Naas Template",
+    platform: "Hashnode",
+    tags: ["twilio", "jupyter-notebook", "gcp", "naasai", "notifications"],
+    link: "https://blog.sriniketh.design/send-sms-using-twilio-for-g-calendar-events-using-naas-template",
   }
 ];
 
