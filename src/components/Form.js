@@ -11,8 +11,8 @@ const Form = () => {
 
     emailjs
       .sendForm(
-        "service_p37k27",   // Service ID
-        "template_p37k27",  // Template ID
+        "service_p37k27", // Service ID
+        "template_p37k27", // Template ID
         form.current,
         "4x5-6c2l5jd105FhJ" // User ID
       )
@@ -29,11 +29,11 @@ const Form = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
       <label>Name</label>
-      <input type="text" name="user_name" />
+      <input type="text" name="user_name" required="true" />
       <label>Email</label>
-      <input type="email" name="user_email" />
+      <input type="email" name="user_email" required="true" />
       <label>Message</label>
-      <textarea name="message" />
+      <textarea name="message" required="true" />
       {/* <input type="submit" value="Send" /> */}
       <button className="btn">
         Submit <AiFillRightCircle size={20} />
