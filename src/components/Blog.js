@@ -6,7 +6,6 @@ import BlogPostData from "./BlogPostData";
 const Blog = () => {
   return (
     <div className="blog">
-      <h1 className="blog-heading">Blog posts</h1>
       <div className="card-container">
           {BlogPostData.map((value, index) => {
             return (

@@ -63,7 +63,7 @@ const BlogPostData = [
   // Dev.to
   {
     title: "IRIS Dataset Implementation",
-    platform: "Dev.to",
+    platform: "dev.to",
     tags: [
       "machine-learning",
       "data science",
