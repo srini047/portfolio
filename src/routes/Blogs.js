@@ -9,7 +9,7 @@ const Blogs = () => {
   return (
     <div>
       <Navbar />
-      <Header content={{ heading: 'Blogs', text: 'See my published writings' }} />
+      <Header content={{ heading: 'Blogs', text: 'See my published articles' }} />
       <Blog />
       <Footer />
       <ScrollTop />

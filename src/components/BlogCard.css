@@ -2,11 +2,7 @@
   width: 100%;
   padding: 6rem 1rem;
   background: black;
-}
-
-.blog-heading {
   text-align: center;
-  padding: 4rem 0 2rem 0;
 }
 
 .card-container {
@@ -21,7 +17,7 @@
   border: 1px solid aliceblue;
   color: aliceblue;
   text-align: center;
-  padding: 1rem;
+  padding: 5rem;
 }
 
 .card:hover {
@@ -42,12 +38,6 @@
   width: 50%;
   margin: 1.5rem auto;
   display: block;
-}
-
-.btc {
-  font-size: 4rem;
-  font-weight: 600;
-  padding: 1rem 0;
 }
 
 .card .btn {
