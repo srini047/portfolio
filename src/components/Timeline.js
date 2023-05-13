@@ -42,7 +42,7 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
-          date="July 2022 - present"
+          date="July 2022 - May 2023"
           iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
           icon={<CgGoogle />}
         >
