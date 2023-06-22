@@ -24,7 +24,7 @@ const Timeline = () => {
         >
           <h3 className="vertical-timeline-element-title">Devrel Intern</h3>
           <h4 className="vertical-timeline-element-subtitle">Naas.ai</h4>
-          <p>Fullstack web developement, Python developement, Open-source, Technical documentation</p>
+          <p>Fullstack web development, Python developement, Open-source, Technical documentation</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
@@ -36,7 +36,19 @@ const Timeline = () => {
         >
           <h3 className="vertical-timeline-element-title">Technical Content Writing Intern</h3>
           <h4 className="vertical-timeline-element-subtitle">Codedamn</h4>
-          <p>Published 15 blogs in domains of Python, Web developement, DataScience, Machine Learning, C-C++</p>
+          <p>Published 15 blogs in domains of Python, Web development, Data Science, Machine Learning, C-C++</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+          date="Aug 2022"
+          iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+          icon={<MdWork />}
+        >
+          <h3 className="vertical-timeline-element-title">Research Intern</h3>
+          <h4 className="vertical-timeline-element-subtitle">CVT(Coronavirus Visualization) Team</h4>
+          <p>Been a part of multinational team of interns in Analysis of the Impact of the Pandemic on School Closures due to Covid-19 and presented our research to panel of Harvard researchers.</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
