@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
+import { MendableFloatingButton } from "@mendable/search";
 
 // Routes
 import Home from "./routes/Home";
@@ -9,6 +10,16 @@ import Projects from "./routes/Projects";
 import Blogs from "./routes/Blogs";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
+
+// Mendable constants
+const style = { darkMode: true, accentColor: "#fff" };
+
+const floatingButtonStyle = {
+  color: "#000",
+  backgroundColor: "#fff",
+};
+
+const icon = <img src="https://user-images.githubusercontent.com/81156510/248205105-91c18b88-8ef4-4ff1-8e5f-d63d586af1ab.svg" alt="chatbot icon"/>
 
 function App() {
   return (
@@ -24,6 +35,14 @@ function App() {
           border: "3px solid #fff",
         }}
       />
+
+      <MendableFloatingButton
+        anon_key="7f3dd8c7-e7d7-4c93-aab3-4ae284cbc281"
+        style={style}
+        floatingButtonStyle={floatingButtonStyle}
+        icon={icon}
+      />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
