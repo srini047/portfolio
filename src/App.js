@@ -12,7 +12,7 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 
 // Mendable constants
-const style = { darkMode: true, accentColor: "#fff" };
+const style = { darkMode: true, accentColor: "#000" };
 
 const floatingButtonStyle = {
   color: "#000",
