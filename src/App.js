@@ -41,6 +41,7 @@ function App() {
         style={style}
         floatingButtonStyle={floatingButtonStyle}
         icon={icon}
+        _shouldStream={false}
       />
 
       <Routes>
