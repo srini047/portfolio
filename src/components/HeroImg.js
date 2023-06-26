@@ -23,9 +23,11 @@ const HeroImg = () => {
           sequence={[
             "Software Developer",
             1000,
-            "DS & ML Enthusiast",
+            "Developer Advocate",
             1000,
             "Open Source Contributor",
+            1000,
+            "DS & ML Enthusiast",
             1000,
             "Technical Writer",
             1000,
