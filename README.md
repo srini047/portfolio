@@ -5,6 +5,14 @@
 - About
 - Contact
 
+# Activity
+## [![Repography logo](https://images.repography.com/logo.svg)](https://repography.com) / Recent activity [![Time period](https://images.repography.com/39010639/srini047/portfolio/recent-activity/nJVBfspeVbJDDjuhf9A-LWe4sMNirFJ-f6K2aGcIhPY/HKahslECMOCqmJglWyPD3zY3ep-_Syun2AfV_n36dSM_badge.svg)](https://repography.com)
+[![Timeline graph](https://images.repography.com/39010639/srini047/portfolio/recent-activity/nJVBfspeVbJDDjuhf9A-LWe4sMNirFJ-f6K2aGcIhPY/HKahslECMOCqmJglWyPD3zY3ep-_Syun2AfV_n36dSM_timeline.svg)](https://github.com/srini047/portfolio/commits)
+[![Issue status graph](https://images.repography.com/39010639/srini047/portfolio/recent-activity/nJVBfspeVbJDDjuhf9A-LWe4sMNirFJ-f6K2aGcIhPY/HKahslECMOCqmJglWyPD3zY3ep-_Syun2AfV_n36dSM_issues.svg)](https://github.com/srini047/portfolio/issues)
+[![Pull request status graph](https://images.repography.com/39010639/srini047/portfolio/recent-activity/nJVBfspeVbJDDjuhf9A-LWe4sMNirFJ-f6K2aGcIhPY/HKahslECMOCqmJglWyPD3zY3ep-_Syun2AfV_n36dSM_prs.svg)](https://github.com/srini047/portfolio/pulls)
+[![Trending topics](https://images.repography.com/39010639/srini047/portfolio/recent-activity/nJVBfspeVbJDDjuhf9A-LWe4sMNirFJ-f6K2aGcIhPY/HKahslECMOCqmJglWyPD3zY3ep-_Syun2AfV_n36dSM_words.svg)](https://github.com/srini047/portfolio/commits)
+
+
 ## Home
 ![Home - Web](https://github.com/srini047/portfolio/assets/81156510/19f09c07-f174-4017-86ce-e8ca0c508ed9)
 ![Home - Mobile](https://github.com/srini047/portfolio/assets/81156510/60e65397-21aa-4858-89cc-378f00bc8ac6)
@@ -27,3 +35,4 @@
 Thanks to:
 - For Web: https://pikwy.com
 - For mobile: https://screenshot.guru
+- Repo stats: https://repography.com
