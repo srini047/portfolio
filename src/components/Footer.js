@@ -38,8 +38,8 @@ const Footer = () => {
                 size={20}
                 style={{ color: "white", marginRight: "2rem" }}
               />
-              <a href="mailto:srinikethcr7@gmail.com">
-                srinikethcr7@gmail.com
+              <a href="mailto:sriniketh.offl@gmail.com">
+                sriniketh.offl@gmail.com
               </a>
             </h4>
           </div>
