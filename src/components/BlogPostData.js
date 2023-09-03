@@ -50,7 +50,7 @@ const BlogPostData = [
   },
   {
     title: "A Quick Overview of Data Science Universe",
-    platform: "",
+    platform: "Analytics Vidhya",
     tags: [
       "beginner",
       "data science",
@@ -136,7 +136,7 @@ const BlogPostData = [
   {
     title: "Print prime numbers between 1 to 100 in Java",
     platform: "Codedamn",
-    tags: ["java", ""],
+    tags: ["java", "dsa"],
     link: "https://codedamn.com/news/java/print-prime-numbers-between-1-to-100",
   },
   {
