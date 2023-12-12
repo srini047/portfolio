@@ -3,6 +3,7 @@ import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
 import { MendableFloatingButton } from "@mendable/search";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Routes
 import Home from "./routes/Home";
@@ -24,6 +25,7 @@ const icon = <img src="https://user-images.githubusercontent.com/81156510/248205
 function App() {
   return (
     <div>
+      <SpeedInsights />
       <AnimatedCursor
         color="255, 0, 0"
         innerSize={8}
