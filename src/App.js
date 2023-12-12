@@ -15,7 +15,7 @@ import Contact from "./routes/Contact";
 const style = { darkMode: true, accentColor: "#000" };
 
 const floatingButtonStyle = {
-  color: "#000",
+  darkMode: true,
   backgroundColor: "#fff",
 };
 
@@ -41,7 +41,10 @@ function App() {
         style={style}
         floatingButtonStyle={floatingButtonStyle}
         icon={icon}
+        dialogPlaceholder="Ask anything about Sriniketh..."
+        privacyDisclaimer="Responses are AI generated based on data provided. If anything is ambiguous or unclear please feel free to contact Sriniketh."
         _shouldStream={false}
+        showPopup={false}
       />
 
       <Routes>

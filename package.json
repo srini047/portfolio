@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
-    "@mendable/search": "0.0.152",
+    "@mendable/search": "0.0.185",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
