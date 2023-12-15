@@ -19,7 +19,7 @@ const AboutContent = () => {
           well🧬. I like to play Football a lot ⚽. I am learning German as
           well🗣️.
         </p>
-        <a href="https://github.com/srini047/portfolio/blob/master/src/assets/Resume.pdf" target="_blank" rel="noreferrer">
+        <a href="https://github.com/srini047/portfolio/blob/master/src/assets/Sriniketh_Resume.pdf" target="_blank" rel="noreferrer">
           <button className="btn">Resume</button>
         </a>
       </div>

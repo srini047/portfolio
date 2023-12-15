@@ -7,11 +7,25 @@ const ProjectCardData = [
         source: "https://github.com/srini047/hackathon-projects-backend"   
     },
     {
+        imgsrc: "https://user-images.githubusercontent.com/81156510/261383111-38dfc349-8ac9-4cc7-9e75-eb7521a7db18.png",
+        title: "Fusion Futurists",
+        text: "Revolutionize e-commerce with AI-driven personalization for trend-aligned & pleasing experience",
+        view: "https://srini047.github.io/walmart-sparkathon-2023/",
+        source: "https://github.com/srini047/walmart-sparkathon-2023"
+    },
+    {
         imgsrc: "https://user-images.githubusercontent.com/81156510/151658225-7c2df2c6-a9ab-454e-991c-62eaf730d96c.png",
         title: "HackTest API",
-        text: "An REST API built to fetch all the details regarding latest Hackathons and Coding Contests",
+        text: "A REST API built to fetch all the details regarding latest Hackathons and Coding Contests",
         view: "https://github.com/srini047/HackTest",
         source: "https://hacktestapi.herokuapp.com"
+    },
+    {
+        imgsrc: "https://user-images.githubusercontent.com/81156510/275876808-f1126ae6-94fc-4d18-ba29-7b623edace66.png",
+        title: "Salient Feature System",
+        text: "Detect profanity in the sentences and perform saliency checking on a sentence-by-sentence basis",
+        view: "https://huggingface.co/spaces/srini047/asapp-hackathon",
+        source: "https://github.com/srini047/asapp-hackathon"
     },
     {
         imgsrc: "https://user-images.githubusercontent.com/81156510/213933187-2200364d-c15f-449c-a2e2-bfa563cccd18.png",
@@ -23,7 +37,7 @@ const ProjectCardData = [
     {
         imgsrc: "https://user-images.githubusercontent.com/81156510/180809076-f4426ece-c8d5-492e-b44f-a43177a5afb9.png",
         title: "Recommendation Engine",
-        text: "Designed and implemented price recommendation application using Web Scraping, in 2-person team using Python. Enables buyers to select the best product with a smaller number of clicks from Amazon and Flipkart; Finalist in Tech Expo, an annual Techfest Techniche, conducted by IIT Guwahati – 2021 (Online)",
+        text: "Designed and implemented price recommendation application using Web Scraping, in a 2-person team using Python. Enables buyers to select the best product with a smaller number of clicks from Amazon and Flipkart; Finalist in Tech Expo, an annual Techfest Techniche, conducted by IIT Guwahati – 2021 (Online)",
         view: "https://github.com/srini047/price-recommender-engine",
         source: "https://github.com/srini047/price-recommender-engine"
     },

@@ -3,6 +3,7 @@ import "./index.css";
 import { Route, Routes } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
 import { MendableFloatingButton } from "@mendable/search";
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 // Routes
 import Home from "./routes/Home";
@@ -12,10 +13,10 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 
 // Mendable constants
-const style = { darkMode: true, accentColor: "#fff" };
+const style = { darkMode: true, accentColor: "#000" };
 
 const floatingButtonStyle = {
-  color: "#000",
+  darkMode: true,
   backgroundColor: "#fff",
 };
 
@@ -24,6 +25,7 @@ const icon = <img src="https://user-images.githubusercontent.com/81156510/248205
 function App() {
   return (
     <div>
+      <SpeedInsights />
       <AnimatedCursor
         color="255, 0, 0"
         innerSize={8}
@@ -41,6 +43,10 @@ function App() {
         style={style}
         floatingButtonStyle={floatingButtonStyle}
         icon={icon}
+        dialogPlaceholder="Ask anything about Sriniketh..."
+        privacyDisclaimer="Responses are AI generated based on data provided. If anything is ambiguous or unclear please feel free to contact Sriniketh."
+        _shouldStream={false}
+        showPopup={false}
       />
 
       <Routes>

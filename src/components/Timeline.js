@@ -24,7 +24,7 @@ const Timeline = () => {
         >
           <h3 className="vertical-timeline-element-title">Devrel Intern</h3>
           <h4 className="vertical-timeline-element-subtitle">Naas.ai</h4>
-          <p>Fullstack web development, Python developement, Open-source, Technical documentation</p>
+          <p>Fullstack web development, Python development, Open-source, Technical documentation</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
