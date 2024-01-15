@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import AnimatedCursor from "react-animated-cursor";
 import { MendableFloatingButton } from "@mendable/search";
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from '@vercel/analytics/react';
 
 // Routes
 import Home from "./routes/Home";
@@ -26,6 +27,7 @@ function App() {
   return (
     <div>
       <SpeedInsights />
+      <Analytics />
       <AnimatedCursor
         color="255, 0, 0"
         innerSize={8}
