@@ -1,6 +1,12 @@
 const BlogPostData = [
   // Analytics Vidhya
   {
+    title: "A Complete Guide to Using Cohere AI",
+    platform: "Analytics Vidhya",
+    tags: ["Advanced", "AI", "Generative AI"],
+    link: "https://www.analyticsvidhya.com/blog/2024/05/guide-to-using-cohere-ai/"
+  },
+  {
     title: "NumPy Library for Data Science",
     platform: "Analytics Vidhya",
     tags: ["beginner", "libraries", "programming", "python"],
