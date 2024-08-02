@@ -16,7 +16,7 @@ const Timeline = () => {
   return (
     <div>
       <VerticalTimeline>
-        {/* <VerticalTimelineElement
+        <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
           date="Feb 2024 - Present"
@@ -25,10 +25,10 @@ const Timeline = () => {
         >
           <h3 className="vertical-timeline-element-subtitle">Zoho</h3>
           <h5 className="vertical-timeline-element-title">
-            <i>Project Trainee</i>
+            <i>Member of Technical Staff</i>
           </h5>
-          <p>C++, Python</p>
-        </VerticalTimelineElement> */}
+          <p>Pytorch, Audio, C++</p>
+        </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
