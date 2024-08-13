@@ -1,7 +1,7 @@
 const BlogPostData = [
   // Analytics Vidhya
   {
-    title: "https://www.analyticsvidhya.com/blog/2024/07/how-to-build-a-rag-evaluator-python-package-with-poetry/",
+    title: "RAG Evaluator - DIY Python Package from Scratch",
     platform: "Analytics Vidhya",
     tags: ["Advanced", "Python", "RAG", "RAG Evaluator"],
     link: "https://www.analyticsvidhya.com/blog/2024/07/how-to-build-a-rag-evaluator-python-package-with-poetry/"
