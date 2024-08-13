@@ -1,6 +1,12 @@
 const BlogPostData = [
   // Analytics Vidhya
   {
+    title: "https://www.analyticsvidhya.com/blog/2024/07/how-to-build-a-rag-evaluator-python-package-with-poetry/",
+    platform: "Analytics Vidhya",
+    tags: ["Advanced", "Python", "RAG", "RAG Evaluator"],
+    link: "https://www.analyticsvidhya.com/blog/2024/07/how-to-build-a-rag-evaluator-python-package-with-poetry/"
+  },
+  {
     title: "A Complete Guide to Using Cohere AI",
     platform: "Analytics Vidhya",
     tags: ["Advanced", "AI", "Generative AI"],
