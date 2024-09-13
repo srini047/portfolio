@@ -11,6 +11,7 @@ import { BsPencilFill } from "react-icons/bs";
 import { CgGoogle } from "react-icons/cg";
 import { MdDownloading } from "react-icons/md";
 import { SiZoho } from "react-icons/si";
+import { DiAngularSimple } from "react-icons/di";
 
 const Timeline = () => {
   return (
@@ -19,7 +20,21 @@ const Timeline = () => {
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
-          date="Feb 2024 - Present"
+          date="Sep 2024 - Present"
+          iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+          icon={<DiAngularSimple />}
+        >
+          <h3 className="vertical-timeline-element-subtitle">Arrcus</h3>
+          <h5 className="vertical-timeline-element-title">
+            <i>Software Engineer</i>
+          </h5>
+          <p>C, Networking</p>
+        </VerticalTimelineElement>
+
+        <VerticalTimelineElement
+          className="vertical-timeline-element--work"
+          contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
+          date="Feb 2024 - Aug 2024"
           iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
           icon={<SiZoho />}
         >
@@ -84,7 +99,7 @@ const Timeline = () => {
           </p>
         </VerticalTimelineElement>
 
-        <VerticalTimelineElement
+        {/* <VerticalTimelineElement
           className="vertical-timeline-element--work"
           contentStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
           date="July 2022 - May 2023"
@@ -99,7 +114,7 @@ const Timeline = () => {
             Learnt about Google technologies like TensorFlow, Firebase, Angular
             & hosted events on the similar technologies
           </p>
-        </VerticalTimelineElement>
+        </VerticalTimelineElement> */}
 
         <VerticalTimelineElement
           iconStyle={{ background: "rgb(0, 0, 0)", color: "#fff" }}
