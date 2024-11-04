@@ -192,43 +192,50 @@ const BlogPostData = [
     title: "When you are stuck as a developer, what do you do?",
     platform: "Hashnode",
     tags: ["general", "developer"],
-    link: "https://blog.sriniketh.design/when-you-are-stuck-as-a-developer-what-do-you-do",
+    link: "https://srinikethj.hashnode.dev/when-you-are-stuck-as-a-developer-what-do-you-do",
   },
   {
     title: "I want to build a Developer Portfolio because...",
     platform: "Hashnode",
     tags: ["general", "developer"],
-    link: "https://blog.sriniketh.design/i-want-to-build-a-developer-portfolio-because",
+    link: "https://srinikethj.hashnode.dev/i-want-to-build-a-developer-portfolio-because",
   },
   {
     title: "What have been the most helpful online tools to self-improve as a developer?",
     platform: "Hashnode",
     tags: ["developer", "general", "tools"],
-    link: "https://blog.sriniketh.design/what-have-been-the-most-helpful-online-tools-to-self-improve-as-a-developer",
+    link: "https://srinikethj.hashnode.dev/what-have-been-the-most-helpful-online-tools-to-self-improve-as-a-developer",
   },
   {
     title: "What made you want to be a developer?",
     platform: "Hashnode",
     tags: ["general", "developer"],
-    link: "https://blog.sriniketh.design/what-made-you-want-to-be-a-developer",
+    link: "https://srinikethj.hashnode.dev/what-made-you-want-to-be-a-developer",
   },
   {
     title: "Sawo: Latest Features",
     platform: "Hashnode",
     tags: ["sawo-labs", "features", "product"],
-    link: "https://blog.sriniketh.design/sawo-latest-features",
+    link: "https://srinikethj.hashnode.dev/sawo-latest-features",
   },
   {
     title: "Sentiment Analysis using Python",
     platform: "Hashnode",
     tags: ["data-science", "machine-learning", "nlp"],
-    link: "https://blog.sriniketh.design/sentiment-analysis-using-python",
+    link: "https://srinikethj.hashnode.dev/sentiment-analysis-using-python",
   },
   {
     title: "Send SMS using Twilio for G-Calendar Events using Naas Template",
     platform: "Hashnode",
     tags: ["twilio", "jupyter-notebook", "gcp", "naasai", "notifications"],
-    link: "https://blog.sriniketh.design/send-sms-using-twilio-for-g-calendar-events-using-naas-template",
+    link: "https://srinikethj.hashnode.dev/send-sms-using-twilio-for-g-calendar-events-using-naas-template",
+  },
+  // Substack
+  {
+    title: "Engineering Dosage (Substack Newsletter - Passive)",
+    platform: "Substack",
+    tags: ["python", "machine-learning", "c", "c++", "linux"],
+    link: "https://srini047.substack.com",
   }
 ];
 
