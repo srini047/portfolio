@@ -1,7 +1,7 @@
 const BlogPostData = [
   // Book
   {
-    title: "Python for Data Analysis",
+    title: "Retrieval-Augmented Generation in Production with Haystack",
     platform: "O'Reilly",
     tags: ["RAG", "Haystack", "LLM's", "Python"],
     link: "https://www.oreilly.com/library/view/retrieval-augmented-generation-in/9781098165161/",

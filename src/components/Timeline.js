@@ -8,7 +8,6 @@ import "react-vertical-timeline-component/style.min.css";
 // Icons for timeline elements
 import { MdWork } from "react-icons/md";
 import { BsPencilFill } from "react-icons/bs";
-import { CgGoogle } from "react-icons/cg";
 import { MdDownloading } from "react-icons/md";
 import { SiZoho } from "react-icons/si";
 import { DiAngularSimple } from "react-icons/di";
