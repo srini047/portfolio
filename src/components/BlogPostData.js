@@ -1,4 +1,11 @@
 const BlogPostData = [
+  // Book
+  {
+    title: "Python for Data Analysis",
+    platform: "O'Reilly",
+    tags: ["RAG", "Haystack", "LLM's", "Python"],
+    link: "https://www.oreilly.com/library/view/retrieval-augmented-generation-in/9781098165161/",
+  },
   // Analytics Vidhya
   {
     title: "RAG Evaluator - DIY Python Package from Scratch",
@@ -236,6 +243,13 @@ const BlogPostData = [
     platform: "Substack",
     tags: ["python", "machine-learning", "c", "c++", "linux"],
     link: "https://srini047.substack.com",
+  },
+  // Keploy
+  {
+    title: "Python Testing With Pytest",
+    platform: "Keploy",
+    tags: ["Python", "Testing", "Pytest", "Unit testing"],
+    link: "https://keploy.io/blog/community/python-testing-with-pytest-features-best-practices",
   }
 ];
 
