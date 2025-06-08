@@ -147,7 +147,7 @@
 %----------HEADING----------
 \begin{center}
     {\Huge \scshape Sriniketh J} \\ \vspace{1pt}
-    Salem, Tamilnadu \\ \vspace{1pt}
+    Salem, Tamilnadu, India \\ \vspace{1pt}
     \small \href{tel:+xxxxxxxxxxxx}{ \raisebox{-0.1\height}\faPhone\ \underline{+91-6385685916} ~} \href{mailto:sriniketh.offl@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{sriniketh.offl@gmail.com}} ~ 
     \href{https://linkedin.com/in/sriniketh-jayasendil}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{sriniketh-jayasendil}}  ~
     \href{https://github.com/srini047}{\raisebox{-0.2\height}\faGithub\ \underline{srini047}} ~
@@ -162,7 +162,7 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {PSG Institute of Technology and Applied Research}{Nov 2020 -- May 2024}
-      {Electronics and Communication Engineering - \textbf{CGPA} - \textbf{8.57}}{Coimbatore, India}
+      {Electronics and Communication Engineering - \textbf{CGPA} - \textbf{8.47}}{Coimbatore, India}
     \resumeSubheading
       {Emerald Valley Public School}{2019 -- 2020}
       {12th - Computer Science  - \textbf{Percentage} - \textbf{93.6\%}}{Salem, India}
@@ -181,8 +181,8 @@
       {Sep 2024 -- Present} 
       {\underline{Software Engineer}}{Bengaluru, India}
       \resumeItemListStart
-        \resumeItem{...}
-        \resumeItem{...}
+        \resumeItem{Worked on \textbf{BFD, VRRP, TWAMP} (debugging bugs \& implement \textbf{RFC} features) and worked on multiple \textbf{GA}, \textbf{EFT}}
+        \resumeItem{Built unit testing infra framework reducing UT time by \textbf{70\%} and \textbf{improved container network} spawning support}
       \resumeItemListEnd  
 
     \resumeSubheading
@@ -214,7 +214,7 @@
     \resumeProjectHeading
       {\href{https://huggingface.co/spaces/srini047/saliency-profanity-detection}{\textbf{\large{\underline{Saliency and Profanity Detection}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{{Python, NLP, Gradio, HuggingFace}}}{May 2024}
       \resumeItemListStart
-        \resumeItem{\normalsize{A \textbf{Voting Classifier} that normalizes the values obtained from fine-tuned ML models producing best results.}}
+        \resumeItem{\normalsize{A \textbf{Voting Classifier} model that normalizes the values obtained from fine-tuned ML models for inference}}
         \resumeItem{\normalsize{An \textbf{accurate profanity detection} to flag abusive text ans censors it, safe to consume \textbf{all age} groups.}}
       \resumeItemListEnd
       \vspace{-13pt}
@@ -222,35 +222,35 @@
     \resumeProjectHeading
       {\href{https://srini047.github.io/walmart-sparkathon-2023/}{\textbf{\large{\underline{Fusion Futurists}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, React, Supabase, Gradio, Cohere}}}{Aug 2023}
       \resumeItemListStart
-        \resumeItem{\normalsize{\textbf{Revolutionize} e-commerce with AI-driven \textbf{personalization} for trend-aligned and \textbf{futuristic} experience.}}
-        \resumeItem{\normalsize{Assist users to buy products \textbf{understanding latest trends} and their buying pattern, and \textbf{improve} revenue.}}
+        \resumeItem{\normalsize{\textbf{Revolutionize} e-commerce with AI-driven \textbf{personalization} for trend-aligned and \textbf{futuristic} experience}}
+        \resumeItem{\normalsize{Assist users to buy products \textbf{understanding latest trends} and their buying pattern, and \textbf{improve} revenue}}
       \resumeItemListEnd
-      \vspace{-13pt}
 
     \vspace{-13pt}
     \resumeProjectHeading
       {\href{https://devpost.com/software/hackproinit}{\textbf{\large{\underline{HackProInit}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{React.js, Node.js, CohereAI, Twilio, Ant Design}}}{Feb 2023}
       \resumeItemListStart
-        \resumeItem{\normalsize{\textbf{Reduce} the \textbf{friction} of participants' mindset to \textbf{brainstorm} ideas in spite of willingness to \textbf{build projects}.}}
-        \resumeItem{\normalsize{\textbf{Help} \textbf{builders} to explore ideas on various domains for specific \textbf{ideas}, professional \textbf{titles}, and \textbf{description}.}}
+        \resumeItem{\normalsize{\textbf{Reduce} the \textbf{friction} of participants' mindset to \textbf{brainstorm} ideas in spite of willingness to \textbf{build projects}}}
+        \resumeItem{\normalsize{\textbf{Help} \textbf{builders} to explore ideas on various domains for specific \textbf{ideas}, professional \textbf{titles}, and \textbf{description}}}
       \resumeItemListEnd 
       \vspace{-13pt}
 
       
     \resumeProjectHeading
-      {\href{https://github.com/abhishekchauhan15/HackTest}{\textbf{\large{\underline{HackTest API}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{ReactJS, NodeJS, ExpressJS, MongoDB, Postman, APIs}}}{Nov 2022}
-      \resumeItemListStart
-        \resumeItem{\normalsize{\textbf{Get} details of coding and hackathon platforms and constantly \textbf{updates} new ones and \textbf{removes} expired ones.}}
-        \resumeItem{\normalsize{All essential \textbf{requirements} of APIs, schema, and request methods were taken into consideration and built.}}
-      \resumeItemListEnd 
-      \vspace{-13pt}
+    {\href{https://github.com/abhishekchauhan15/HackTest}{\textbf{\large{\underline{HackTest API}}}} $|$ \large{\underline{ReactJS, NodeJS, ExpressJS, MongoDB, Postman}}}{Nov 2022}
+    \resumeItemListStart
+        \resumeItem{\normalsize{Developed \textbf{dynamic API} for fetching \textbf{up-to-date} coding contests and hackathons, \textbf{storage} using MongoDB}}
+        \resumeItem{\normalsize{Implemented \textbf{RESTful} endpoints, \textbf{optimized data} models, and validated using \textbf{Postman} for testing purposes}}
+    \resumeItemListEnd
+    \vspace{-13pt}
       
     \resumeProjectHeading
-      {\href{https://devpost.com/software/parking-assistant-using-opencv}{\textbf{\large{\underline{Parking Assistant using OpenCV}}} \href{Project Link}{\raisebox{-0.1\height}\faExternalLink }} $|$ \large{\underline{Python, OpenCV, MaskRCNN, Twilio}}}{Aug 2021}
-      \resumeItemListStart
-        \resumeItem{\normalsize{\textbf{Reduce} the \textbf{friction} of participants' mindset to \textbf{brainstorm} ideas in spite of willingness to \textbf{build projects}.}}
-        \resumeItem{\normalsize{\textbf{Help} \textbf{builders} to explore ideas on various domains for specific \textbf{ideas}, professional \textbf{titles}, and \textbf{description}.}}
-      \resumeItemListEnd 
+    {\href{https://devpost.com/software/parking-assistant-using-opencv}{\textbf{\large{\underline{Parking Assistant using OpenCV}}}} $|$ \large{\underline{Python, OpenCV, MaskRCNN, Twilio}}}{Aug 2021}
+    \resumeItemListStart
+        \resumeItem{\normalsize{\textbf{Real-time} parking slot detection system using MaskRCNN, with \textbf{instant text notifications} via Twilio}}
+        \resumeItem{\normalsize{ML model to \textbf{detect cars and available spaces}, and implemented for both \textbf{day and night} parking.}}
+    \resumeItemListEnd
+
 
 \resumeSubHeadingListEnd
 \vspace{-12pt}
@@ -274,10 +274,13 @@
 \section{TECHNICAL SKILLS}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{\normalsize{Tools \& Languages:}}{ \normalsize{C/C++, Python, Linux, JavaScript, Java}} \\
+     \textbf{\normalsize{Programming Languages:}}{ \normalsize{C/C++, Python, JavaScript}} \\
      % \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Android Studio, DataGrip, Goland, Intellij Idea Ultimate}} \\
-     \textbf{\normalsize{Skills/Technologies: }}{\normalsize{PyTorch, Tensorflow, ReactJS, Postman, RAG, LLM, Docker, NodeJS, Git, APIs}} \\
+     \textbf{\normalsize{Tools \& Technologies: }}{\normalsize{Linux, Docker, ReactJS, Postman, RAG, LLMs, APIs, Networking, Tableau}} \\
     }}
  \end{itemize}
  \vspace{-15pt}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{\textbf{5 Stars} in \textbf{C++} \& \textbf{SQL} \href{certificateLink.com}{\raisebox{-0.1\height}\faExternalLink }}}\hspace{1.45cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{MongoDB Basics}} \hspace{0.5cm}
+% $\sbullet[.75] \hspace{0.2cm}${\href{certificateLink.com}{NodeJS with Express \& MongoDB - Udemy}} \\
 \end{document}
