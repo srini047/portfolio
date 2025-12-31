@@ -1,5 +1,19 @@
 const ProjectCardData = [
   {
+    imgsrc: "https://github.com/srini047/hashnode-blog-translator/raw/master/static/Apify%20Lingo%20Hashnode%20Blog%20Convertor.png",
+    title: "Hashnode Blog Scrapper and Convertor",
+    text: "An Apify actor to extract and translate blog content from Hashnode, then store results in Apify storage. Built in Python and designed for quick local runs and Apify deployments.",
+    view: "https://apify.com/srini047/hashnode-blog-translator",
+    source: "https://github.com/srini047/hashnode-blog-translator",
+  },
+  {
+    imgsrc: "https://private-user-images.githubusercontent.com/81156510/531239717-003bbf68-2b26-4782-987e-a914568de052.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcxOTI1MTMsIm5iZiI6MTc2NzE5MjIxMywicGF0aCI6Ii84MTE1NjUxMC81MzEyMzk3MTctMDAzYmJmNjgtMmIyNi00NzgyLTk4N2UtYTkxNDU2OGRlMDUyLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMzElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjMxVDE0NDMzM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTZjZjcyOGVlYWQ1MTc5MDZjZWIyYThiZTlkMzg3NjI0N2MyZmI4YTk2Y2ZlN2RkM2MwYTBjYzM4MDAwZjgzNTMmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.JKTTT7BTJoFUSLQd1kiTmiSIpUmAKjwlsE02J3gsRYY",
+    title: "Hashnode Blog Scrapper and Convertor",
+    text: "An Apify actor to extract and translate blog content from Hashnode, then store results in Apify storage. Built in Python and designed for quick local runs and Apify deployments.",
+    view: "https://apify.com/srini047/hashnode-blog-translator",
+    source: "https://github.com/srini047/hashnode-blog-translator",
+  },
+  {
     imgsrc: "https://i.ibb.co/S4zvhMzN/Screenshot-2025-05-03-at-1-31-05-PM.png",
     title: "Email.AI",
     text: "An AI-powered Email Assistant that helps you write emails faster and more effectively. It uses the power of OpenAI's GPT-3 to generate email content based on your input. Made use of Next.js, Typescript, and Shadcn.",
