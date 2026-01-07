@@ -21,7 +21,8 @@ const Form = () => {
           alert("Thanks for reaching out!! I'll get back to you shortly!");
         },
         (error) => {
-          alert(`Oops, ${error}. Please try again.`);
+          console.log("EmailJS Error:", error);
+          alert(`Oops, ${error.text || error.message}. Please try again.`);
         }
       );
   };
