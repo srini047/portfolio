@@ -1,0 +1,182 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Light mode: cream background with dark text and red accents */
+  --background: #eeeeee;
+  --foreground: #1d1616;
+  --card: #f5f5f5;
+  --card-foreground: #1d1616;
+  --popover: #eeeeee;
+  --popover-foreground: #1d1616;
+  --primary: #d84040;
+  --primary-foreground: #eeeeee;
+  --secondary: #8e1616;
+  --secondary-foreground: #eeeeee;
+  --muted: #e0e0e0;
+  --muted-foreground: #666666;
+  --accent: #d84040;
+  --accent-foreground: #eeeeee;
+  --destructive: #d84040;
+  --destructive-foreground: #eeeeee;
+  --border: #ddd;
+  --input: #f5f5f5;
+  --ring: #d84040;
+  --chart-1: #d84040;
+  --chart-2: #8e1616;
+  --chart-3: #d84040;
+  --chart-4: #1d1616;
+  --chart-5: #666666;
+  --radius: 0.5rem;
+  --sidebar: #eeeeee;
+  --sidebar-foreground: #1d1616;
+  --sidebar-primary: #d84040;
+  --sidebar-primary-foreground: #eeeeee;
+  --sidebar-accent: #d84040;
+  --sidebar-accent-foreground: #eeeeee;
+  --sidebar-border: #ddd;
+  --sidebar-ring: #d84040;
+}
+
+.dark {
+  /* Dark mode: pure black background with cream text and red accents */
+  --background: #000000;
+  --foreground: #eeeeee;
+  --card: #111111;
+  --card-foreground: #eeeeee;
+  --popover: #000000;
+  --popover-foreground: #eeeeee;
+  --primary: #d84040;
+  --primary-foreground: #eeeeee;
+  --secondary: #ff6b6b;
+  --secondary-foreground: #eeeeee;
+  --muted: #333333;
+  --muted-foreground: #aaaaaa;
+  --accent: #ff6b6b;
+  --accent-foreground: #eeeeee;
+  --destructive: #d84040;
+  --destructive-foreground: #eeeeee;
+  --border: #222222;
+  --input: #111111;
+  --ring: #d84040;
+  --chart-1: #d84040;
+  --chart-2: #ff6b6b;
+  --chart-3: #ff6b6b;
+  --chart-4: #eeeeee;
+  --chart-5: #aaaaaa;
+  --sidebar: #111111;
+  --sidebar-foreground: #eeeeee;
+  --sidebar-primary: #d84040;
+  --sidebar-primary-foreground: #eeeeee;
+  --sidebar-accent: #ff6b6b;
+  --sidebar-accent-foreground: #eeeeee;
+  --sidebar-border: #222222;
+  --sidebar-ring: #d84040;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-mono;
+  }
+}
+
+/* Typewriter animation for hero text */
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  45% {
+    width: 100%;
+  }
+  55% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  0%,
+  49%,
+  100% {
+    border-right-color: currentColor;
+  }
+  50%,
+  99% {
+    border-right-color: transparent;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  border-right: 2px solid;
+  white-space: nowrap;
+  animation: typewriter 8s steps(50, end) infinite, blink 0.8s infinite;
+}
+
+/* Command palette and hotkey styles */
+.command-palette {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+}
+
+.command-palette-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 999;
+}

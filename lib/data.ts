@@ -1,0 +1,336 @@
+export const projectsData = [
+  {
+    imgsrc:
+      "https://github.com/srini047/hashnode-blog-translator/raw/master/static/Apify%20Lingo%20Hashnode%20Blog%20Convertor.png",
+    title: "Hashnode Blog Scrapper and Convertor",
+    text: "An Apify actor to extract and translate blog content from Hashnode, then store results in Apify storage. Built in Python and designed for quick local runs and Apify deployments.",
+    view: "https://apify.com/srini047/hashnode-blog-translator",
+    source: "https://github.com/srini047/hashnode-blog-translator",
+  },
+  {
+    title: "Email.AI",
+    text: "An AI-powered Email Assistant that helps you write emails faster and more effectively. It uses the power of OpenAI's GPT-3 to generate email content based on your input. Made use of Next.js, Typescript, and Shadcn.",
+    view: "https://email-ai-generator.vercel.app/",
+    source: "https://github.com/LLM-Projects/email.ai",
+  },
+  {
+    title: "HackProInit",
+    text: "An AI-powered one-stop platform to help kickstart your next hackathon/college project. Utilizes the power of Cohere, Twilio, GitHub, and OpenAI. Made use of React.js, Node.js, Express.js, Ant Design, Bootstrap.",
+    view: "https://devpost.com/software/hackproinit",
+    source: "https://github.com/srini047/hackathon-projects-backend",
+  },
+  {
+    title: "Fusion Futurists",
+    text: "Revolutionize e-commerce with AI-driven personalization for trend-aligned & pleasing experience",
+    view: "https://srini047.github.io/walmart-sparkathon-2023/",
+    source: "https://github.com/srini047/walmart-sparkathon-2023",
+  },
+  {
+    title: "HackTest API",
+    text: "A REST API built to fetch all the details regarding latest Hackathons and Coding Contests",
+    view: "https://github.com/srini047/HackTest",
+    source: "https://hacktestapi.herokuapp.com",
+  },
+  {
+    title: "Parking Assistant using OpenCV",
+    text: "Implemented a parking assistant that helps in finding parking lots in congested places using OpenCV, Mask RCNN, Twilio. Winner of Twilio Track Prize – Hack6iX",
+    view: "https://devpost.com/software/parking-assistant-using-opencv",
+    source: "https://github.com/srini047/Hack6iX",
+  },
+  {
+    title: "Recommendation Engine",
+    text: "Designed and implemented price recommendation application using Web Scraping, in a 2-person team using Python. Enables buyers to select the best product with a smaller number of clicks from Amazon and Flipkart; Finalist in Tech Expo, an annual Techfest Techniche, conducted by IIT Guwahati – 2021 (Online)",
+    view: "https://github.com/srini047/price-recommender-engine",
+    source: "https://github.com/srini047/price-recommender-engine",
+  },
+  {
+    title: "Sentiment Analysis using Python",
+    text: "Designed and implemented a text sentiment analyzer which classifies the nature of text as positive or negative using NLP. Runner Up in Hackathon, an annual Techfest Fiestaa 22, conducted by KPRIET – 2022 (In-person)",
+    view: "https://huggingface.co/spaces/srini047/text-based-sentiment-analyzer",
+    source: "https://github.com/srini047/text-based-sentiment-analysis",
+  },
+  {
+    title: "Travelogue",
+    text: "One-stop platform to connect with guides, & tourists to discover, explore, and interact with native folks and their culture. Used MERN stack to build the application and made use of Cohere and Twilio APIs to enhance the user experience and provide an AI touch to the application.",
+    view: "http://devpost.com/software/travelogue-q1eyzh",
+    source: "https://github.com/srini047/travelogue-backend",
+  },
+];
+
+export const blogsData = [
+  {
+    title: "Retrieval-Augmented Generation in Production with Haystack",
+    platform: "O'Reilly",
+    tags: ["RAG", "Haystack", "LLM's", "Python"],
+    link: "https://www.oreilly.com/library/view/retrieval-augmented-generation-in/9781098165161/",
+  },
+  {
+    title: "RAG Evaluator - DIY Python Package from Scratch",
+    platform: "Analytics Vidhya",
+    tags: ["Advanced", "Python", "RAG", "RAG Evaluator"],
+    link: "https://www.analyticsvidhya.com/blog/2024/07/how-to-build-a-rag-evaluator-python-package-with-poetry/",
+  },
+  {
+    title: "A Complete Guide to Using Cohere AI",
+    platform: "Analytics Vidhya",
+    tags: ["Advanced", "AI", "Generative AI"],
+    link: "https://www.analyticsvidhya.com/blog/2024/05/guide-to-using-cohere-ai/",
+  },
+  {
+    title: "NumPy Library for Data Science",
+    platform: "Analytics Vidhya",
+    tags: ["beginner", "libraries", "programming", "python"],
+    link: "https://www.analyticsvidhya.com/blog/2021/05/numpy-library-for-data-science/",
+  },
+  {
+    title: "Sentiment Analysis using NLTK",
+    platform: "Analytics Vidhya",
+    tags: ["advanced", "classification", "lib", "nlp", "supervised"],
+    link: "https://www.analyticsvidhya.com/blog/2021/06/sentiment-analysis-using-nltk-a-practical-approach/",
+  },
+  {
+    title: "MNIST Dataset Prediction Using Keras",
+    platform: "Analytics Vidhya",
+    tags: [
+      "beginner",
+      "classification",
+      "datasets",
+      "deep learning",
+      "unsupervised data",
+    ],
+    link: "https://www.analyticsvidhya.com/blog/2021/06/mnist-dataset-prediction-using-keras/",
+  },
+  {
+    title: "A Practical Tutorial to Simple Linear Regression Using Python",
+    platform: "Analytics Vidhya",
+    tags: [
+      "machine-learning",
+      "python",
+      "regresssion",
+      "structured data",
+      "supervised learning",
+    ],
+    link: "https://www.analyticsvidhya.com/blog/2021/03/a-practical-tutorial-to-simple-linear-regression-using-python/",
+  },
+  {
+    title: "Uninformed Search Algorithms in AI",
+    platform: "Analytics Vidhya",
+    tags: [
+      "advanced",
+      "machine-learning",
+      "python",
+      "regressions",
+      "structured data",
+    ],
+    link: "https://www.analyticsvidhya.com/blog/2021/02/uninformed-search-algorithms-in-ai/",
+  },
+  {
+    title: "A Quick Overview of Data Science Universe",
+    platform: "Analytics Vidhya",
+    tags: [
+      "beginner",
+      "data science",
+      "interview questions",
+      "structured data",
+      "unstructured data",
+    ],
+    link: "https://www.analyticsvidhya.com/blog/2021/01/an-quick-overview-of-data-science-universe/",
+  },
+  {
+    title: "IRIS Dataset Implementation",
+    platform: "dev.to",
+    tags: ["machine-learning", "data science", "python", "vs-code"],
+    link: "https://dev.to/hackthisfall/iris-dataset-implementation-2m7i",
+  },
+  {
+    title: "How to get column names in a python pandas data frame?",
+    platform: "Codedamn",
+    tags: ["python", "pandas"],
+    link: "https://codedamn.com/news/python/how-to-get-column-names-in-a-python-pandas-data-frame",
+  },
+  {
+    title: "GET and POST requests using Python",
+    platform: "Codedamn",
+    tags: ["python", "api", "urllib3", "requests", "flask"],
+    link: "https://codedamn.com/news/python/get-and-post-requests-using-python",
+  },
+  {
+    title: "How to convert string to number in TypeScript?",
+    platform: "Codedamn",
+    tags: ["typescript", "javascript"],
+    link: "https://codedamn.com/news/typescript/how-to-convert-string-to-number-in-typescript",
+  },
+  {
+    title: "What are Convolutional Neural Networks (CNN) in Computer Vision?",
+    platform: "Codedamn",
+    tags: [
+      "machine-learning",
+      "deep learning",
+      "neural networks",
+      "tensorflow",
+    ],
+    link: "https://codedamn.com/news/machine-learning/what-are-convolutional-neural-networks-cnn-in-computer-vision",
+  },
+  {
+    title: "How to write a dictionary to a CSV file in python?",
+    platform: "Codedamn",
+    tags: ["python", "pandas", "csv"],
+    link: "https://codedamn.com/news/python/how-to-write-a-dictionary-to-a-csv-file-in-python",
+  },
+  {
+    title: "What is selection sort?",
+    platform: "Codedamn",
+    tags: ["c++", "algorithms", "dsa"],
+    link: "https://codedamn.com/news/c/what-is-selection-sort",
+  },
+  {
+    title: "How to reverse a string in JavaScript?",
+    platform: "Codedamn",
+    tags: ["javascript", "strings", "recursion"],
+    link: "https://codedamn.com/news/javascript/how-to-reverse-a-string-in-javascript",
+  },
+  {
+    title: "What is the difference between an array and a list in Python?",
+    platform: "Codedamn",
+    tags: ["python"],
+    link: "https://codedamn.com/news/python/difference-between-an-array-and-a-list",
+  },
+  {
+    title: "How to scrape a website using JavaScript?",
+    platform: "Codedamn",
+    tags: ["javascript", "web scraping", "express.js", "server-side"],
+    link: "https://codedamn.com/news/javascript/how-to-scrape-a-website-using-javascript",
+  },
+  {
+    title: "Print prime numbers between 1 to 100 in Java",
+    platform: "Codedamn",
+    tags: ["java", "dsa"],
+    link: "https://codedamn.com/news/java/print-prime-numbers-between-1-to-100",
+  },
+  {
+    title: "What is a python module? How to build your python module?",
+    platform: "Codedamn",
+    tags: ["python", "module"],
+    link: "https://codedamn.com/news/python/python-module-how-to-build-your-python-module",
+  },
+  {
+    title: "How to fix npm err! missing script: start",
+    platform: "Codedamn",
+    tags: ["javascript", "npmjs", "error-handling"],
+    link: "https://codedamn.com/news/javascript/how-to-fix-npm-err",
+  },
+  {
+    title: "Fix ValueError: could not convert string to float",
+    platform: "Codedamn",
+    tags: ["python", "programming", "strings"],
+    link: "https://codedamn.com/news/programming/fix-valueerror",
+  },
+  {
+    title: "Top 10 Next.js Projects for Beginners (with Code)",
+    platform: "Codedamn",
+    tags: ["next.js", "beginners"],
+    link: "https://codedamn.com/news/nextjs/top-10-project-ideas",
+  },
+  {
+    title: "Product Reviews Sentiment Analysis",
+    platform: "Medium",
+    tags: ["mindsdb", "huggingface", "nlp", "machine-learning"],
+    link: "https://medium.com/@srini047/product-reviews-sentiment-analysis-dd4f742a1475",
+  },
+  {
+    title: "When you are stuck as a developer, what do you do?",
+    platform: "Hashnode",
+    tags: ["general", "developer"],
+    link: "https://srinikethj.hashnode.dev/when-you-are-stuck-as-a-developer-what-do-you-do",
+  },
+  {
+    title: "I want to build a Developer Portfolio because...",
+    platform: "Hashnode",
+    tags: ["general", "developer"],
+    link: "https://srinikethj.hashnode.dev/i-want-to-build-a-developer-portfolio-because",
+  },
+  {
+    title:
+      "What have been the most helpful online tools to self-improve as a developer?",
+    platform: "Hashnode",
+    tags: ["developer", "general", "tools"],
+    link: "https://srinikethj.hashnode.dev/what-have-been-the-most-helpful-online-tools-to-self-improve-as-a-developer",
+  },
+  {
+    title: "What made you want to be a developer?",
+    platform: "Hashnode",
+    tags: ["general", "developer"],
+    link: "https://srinikethj.hashnode.dev/what-made-you-want-to-be-a-developer",
+  },
+  {
+    title: "Sawo: Latest Features",
+    platform: "Hashnode",
+    tags: ["sawo-labs", "features", "product"],
+    link: "https://srinikethj.hashnode.dev/sawo-latest-features",
+  },
+  {
+    title: "Sentiment Analysis using Python",
+    platform: "Hashnode",
+    tags: ["data-science", "machine-learning", "nlp"],
+    link: "https://srinikethj.hashnode.dev/sentiment-analysis-using-python",
+  },
+  {
+    title: "Send SMS using Twilio for G-Calendar Events using Naas Template",
+    platform: "Hashnode",
+    tags: ["twilio", "jupyter-notebook", "gcp", "naasai", "notifications"],
+    link: "https://srinikethj.hashnode.dev/send-sms-using-twilio-for-g-calendar-events-using-naas-template",
+  },
+  {
+    title: "Engineering Dosage (Substack Newsletter - Passive)",
+    platform: "Substack",
+    tags: ["python", "machine-learning", "c", "c++", "linux"],
+    link: "https://srini047.substack.com",
+  },
+  {
+    title: "Python Testing With Pytest",
+    platform: "Keploy",
+    tags: ["Python", "Testing", "Pytest", "Unit testing"],
+    link: "https://keploy.io/blog/community/python-testing-with-pytest-features-best-practices",
+  },
+];
+
+export const experienceData = [
+  {
+    company: "Arcus",
+    position: "Software Engineer",
+    duration: "Sep 2024 - Present",
+    skills: "C, Networking",
+    icon: "📡",
+  },
+  {
+    company: "Zoho",
+    position: "Member of Technical Staff",
+    duration: "Feb 2024 - Aug 2024",
+    skills: "Pytorch, Audio, C++",
+    icon: "🎵",
+  },
+  {
+    company: "naas.ai",
+    position: "Software Developer Intern",
+    duration: "Feb 2023 - Jan 2024",
+    skills:
+      "Fullstack web development, Python development, Open-source, Technical documentation",
+    icon: "🚀",
+  },
+  {
+    company: "Codedamn",
+    position: "Technical Content Writing Intern",
+    duration: "Sep 2022 - Feb 2023",
+    skills:
+      "Published 15 blogs in domains of Python, Web development, Data Science, Machine Learning, C++",
+    icon: "✍️",
+  },
+  {
+    company: "CVT (Coronavirus Visualization Team)",
+    position: "Research Intern",
+    duration: "Aug 2022",
+    skills:
+      "Analysis of the Impact of the Pandemic on School Closures due to COVID-19",
+    icon: "📊",
+  },
+];
