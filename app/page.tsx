@@ -7,7 +7,7 @@ import { Code2, Mail } from "lucide-react";
 
 export default function Home() {
   const [displayText, setDisplayText] = useState("");
-  const fullText = "Software Engineer | ";
+  const fullText = "Software Engineer | ML Engineer";
   const [isDeleting, setIsDeleting] = useState(false);
 
   useEffect(() => {

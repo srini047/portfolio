@@ -17,10 +17,9 @@ export default function AboutPage() {
         <div className="mb-12 space-y-6">
           <p className="text-lg text-foreground leading-relaxed">
             I'm a passionate full-stack developer and machine learning
-            enthusiast from Salem, Tamilnadu, India. Currently pursuing my B.E.
-            in Electronics and Communication Engineering at PSG Institute of
-            Technology and Applied Research, I'm exploring the intersection of
-            AI, machine learning, and web development.
+            enthusiast from Salem, Tamilnadu, India. Currently working as a SWE
+            at Arrcus Networks. I have previously worked at Zoho, Audio ML side
+            of things and Software Developer Intern at naas.ai
           </p>
 
           <p className="text-lg text-foreground leading-relaxed">
@@ -115,13 +114,15 @@ export default function AboutPage() {
               Let's Connect
             </Button>
           </a>
-          <Button
-            variant="outline"
-            className="w-full sm:w-auto font-mono bg-transparent"
-          >
-            <Download className="w-4 h-4 mr-2" />
-            Download Resume
-          </Button>
+          <a href="https://github.com/srini047/portfolio/tree/master/public/Sriniketh.pdf">
+            <Button
+              variant="outline"
+              className="w-full sm:w-auto font-mono bg-transparent"
+            >
+              <Download className="w-4 h-4 mr-2" />
+              Download Resume
+            </Button>
+          </a>
         </div>
       </div>
     </div>
