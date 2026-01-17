@@ -36,6 +36,14 @@ export default function RootLayout({
           <Footer />
           <CommandPalette />
           <Analytics />
+          <aside role="complementary" aria-label="Voice assistant">
+            <elevenlabs-convai agent-id="agent_0101kf5ctmk5f0bav1r03q66vkgj"></elevenlabs-convai>
+            <script
+              src="https://unpkg.com/@elevenlabs/convai-widget-embed"
+              async
+              type="text/javascript"
+            ></script>
+          </aside>
         </ThemeProvider>
       </body>
     </html>

@@ -1,0 +1,43 @@
+# Sriniketh J. Portfolio
+
+> Personal portfolio website for Sriniketh J. - Software Engineer specializing in ML, Networking, and Full Stack Development.
+
+## Overview
+
+A Next.js 15 portfolio with a terminal/CLI aesthetic theme featuring dark/light modes, a searchable blog system with 50+ articles, project showcase, and EmailJS contact form.
+
+## Tech Stack
+
+- Next.js 15 (App Router)
+- TypeScript
+- Tailwind CSS v4
+- shadcn/ui components
+- Lucide React icons
+- EmailJS for contact form
+
+## Pages
+
+- `/` - Home with typewriter effect
+- `/projects` - Project showcase grid
+- `/blogs` - Searchable blog listing with publication filters
+- `/about` - Bio, skills, and experience timeline
+- `/contact` - Contact form with EmailJS
+
+## Key Features
+
+- Command palette (Ctrl/Cmd+K) with FZF-style interface
+- Dark/Light mode with localStorage persistence
+- Mobile responsive design
+- Terminal-inspired UI (`$ whoami`, `$ cat blogs/`)
+- Red-only accent color scheme
+
+## Design
+
+Colors:
+- Background: #eeeeee (light) / #000000 (dark)
+- Primary/Accent: #d84040 (light) / #ff6b6b (dark)
+- Text: #1a1a1a (light) / #f5f5f5 (dark)
+
+Typography:
+- Headings: JetBrains Mono (monospace)
+- Body: System sans-serif
