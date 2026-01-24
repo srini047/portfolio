@@ -1,8 +1,12 @@
 export const projectsData = [
   {
-    imgsrc:
-      "https://github.com/srini047/hashnode-blog-translator/raw/master/static/Apify%20Lingo%20Hashnode%20Blog%20Convertor.png",
-    title: "Hashnode Blog Scrapper and Convertor",
+    title: "AccessSubmit",
+    text: "An AI-powered video-to-submission pipeline built with universal accessibility at its core. AccessSubmit transforms your demo video into a complete hackathon submission with comprehensive documentation—all designed for people with disabilities.",
+    view: "https://elevenlabs.io/app/talk-to?agent_id=agent_2101ke4b1qeqf4680mvgj1kx63c8&branch_id=agtbrch_7401ke4b1r7bfg89gaww14ptdm9c",
+    source: "https://devpost.com/software/access-submit",
+  },
+  {
+    title: "Hashnode Blog Translator",
     text: "An Apify actor to extract and translate blog content from Hashnode, then store results in Apify storage. Built in Python and designed for quick local runs and Apify deployments.",
     view: "https://apify.com/srini047/hashnode-blog-translator",
     source: "https://github.com/srini047/hashnode-blog-translator",
