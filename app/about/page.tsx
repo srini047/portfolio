@@ -16,8 +16,8 @@ export default function AboutPage() {
         {/* About Section */}
         <div className="mb-8 md:mb-12 space-y-4 md:space-y-6">
           <p className="text-base md:text-lg text-foreground leading-relaxed">
-            I'm a passionate full-stack developer and machine learning
-            enthusiast from Salem, Tamilnadu, India. Currently working as a SWE
+            I'm a passionate software engineer and machine learning
+            enthusiast from India. Currently working as a SWE
             at Arrcus Networks. I have previously worked at Zoho, Audio ML side
             of things and Software Developer Intern at naas.ai
           </p>
