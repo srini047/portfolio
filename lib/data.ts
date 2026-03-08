@@ -1,3 +1,5 @@
+import { platform } from "os";
+
 export const projectsData = [
   {
     title: "AccessSubmit",
@@ -143,8 +145,14 @@ export const blogsData = [
   {
     title: "IRIS Dataset Implementation",
     platform: "dev.to",
-    tags: ["machine-learning", "data science", "python", "vs-code"],
+    tags: ["machine-learning", "data-science", "python", "vs-code"],
     link: "https://dev.to/hackthisfall/iris-dataset-implementation-2m7i",
+  },
+  {
+    title: "GitHub Copilot: Assistant for my current Python workflow",
+    platform: "dev.to",
+    tags: ["github-copilot", "ai", "python", "tooling"],
+    link: "https://dev.to/srini047/github-copilot-assistant-for-my-current-python-workflow-2phm",
   },
   {
     title: "How to get column names in a python pandas data frame?",
@@ -283,6 +291,12 @@ export const blogsData = [
     platform: "Hashnode",
     tags: ["twilio", "jupyter-notebook", "gcp", "naasai", "notifications"],
     link: "https://srinikethj.hashnode.dev/send-sms-using-twilio-for-g-calendar-events-using-naas-template",
+  },
+  {
+    title: "One Index, Two Search Modes 🔍: Building a Natural-Language Inventory Bot 🤖 using Elasticsearch",
+    platform: "Hashnode",
+    tags: ["vector-search", "elasticsearch", "vector-database", "jina-ai", "cohere"],
+    link: "https://srinikethj.hashnode.dev/building-natural-language-inventory-bot-on-elasticseaerch",
   },
   {
     title: "Engineering Dosage (Substack Newsletter - Passive)",
