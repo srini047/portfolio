@@ -2,6 +2,24 @@ import { platform } from "os";
 
 export const projectsData = [
   {
+    title: "Skills i8n",
+    text: "i18n for AI Agent Skills — translate your `SKILL.md` to a target locale",
+    view: "https://youtu.be/I9KYkx4SaoQ",
+    source: "https://github.com/srini047/skills-i8n",
+  },
+  {
+    title: "Haystack Skills",
+    text: "A curated collection of AI agent skills for the Haystack 2.x ecosystem",
+    view: "https://skills.sh/srini047/haystack-skills/haystack",
+    source: "https://github.com/srini047/haystack-skills",
+  },
+  {
+    title: "Noc Agent",
+    text: "An OpenEnv RL environment that simulates a Linux server under an active incident.",
+    view: "https://huggingface.co/spaces/srini047/noc_agent",
+    source: "https://github.com/srini047/noc_agent",
+  },
+  {
     title: "AccessSubmit",
     text: "An AI-powered video-to-submission pipeline built with universal accessibility at its core. AccessSubmit transforms your demo video into a complete hackathon submission with comprehensive documentation—all designed for people with disabilities.",
     view: "https://elevenlabs.io/app/talk-to?agent_id=agent_2101ke4b1qeqf4680mvgj1kx63c8&branch_id=agtbrch_7401ke4b1r7bfg89gaww14ptdm9c",
@@ -153,6 +171,12 @@ export const blogsData = [
     platform: "dev.to",
     tags: ["github-copilot", "ai", "python", "tooling"],
     link: "https://dev.to/srini047/github-copilot-assistant-for-my-current-python-workflow-2phm",
+  },
+  {
+    title: "Skills-i8n: When your Skills become i8n friendly ☸️",
+    platform: "dev.to",
+    tags: ["agents", "ai", "nlp", "python"],
+    link: "https://dev.to/srini047/skills-i8n-when-your-skills-become-multilingual-4l0h",
   },
   {
     title: "How to get column names in a python pandas data frame?",
