@@ -323,6 +323,12 @@ export const blogsData = [
     link: "https://srinikethj.hashnode.dev/building-natural-language-inventory-bot-on-elasticseaerch",
   },
   {
+    title: "Haystack v3 Deep Dives",
+    platform: "Hashnode",
+    tags: ["agents", "haystack", "skills", "hitl", "cost-monitoring"],
+    link: "https://srinikethj.hashnode.dev/series/haystack-v3-deep-research-agent",
+  },
+  {
     title: "Engineering Dosage (Substack Newsletter - Passive)",
     platform: "Substack",
     tags: ["python", "machine-learning", "c", "c++", "linux"],
