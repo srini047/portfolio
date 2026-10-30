@@ -78,7 +78,7 @@ export default function ContactPage() {
             <h3 className="font-mono text-sm text-muted-foreground mb-2">
               Location
             </h3>
-            <p className="text-foreground">Salem, Tamilnadu, India</p>
+            <p className="text-foreground">Bengaluru, Karnataka, India</p>
           </div>
         </div>
 
