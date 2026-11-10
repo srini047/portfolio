@@ -344,41 +344,42 @@ export const blogsData = [
 
 export const experienceData = [
   {
-    company: "Arcus",
+    company: "Nokia",
     position: "Software Engineer",
-    duration: "Sep 2024 - Present",
-    skills: "C, Networking",
-    icon: "📡",
+    duration: "August 2026 - Present",
+    skills: "SONiC, GNMI",
+  },
+  {
+    company: "Arrcus",
+    position: "Software Engineer",
+    duration: "September 2024 - July 2026",
+    skills: "Routing Protocols (VRRP, BFD), SNMP",
   },
   {
     company: "Zoho",
     position: "Member of Technical Staff",
-    duration: "Feb 2024 - Aug 2024",
+    duration: "February 2024 - August 2024",
     skills: "Pytorch, Audio, C++",
-    icon: "🎵",
   },
   {
     company: "naas.ai",
     position: "Software Developer Intern",
-    duration: "Feb 2023 - Jan 2024",
+    duration: "February 2023 - January 2024",
     skills:
       "Fullstack web development, Python development, Open-source, Technical documentation",
-    icon: "🚀",
   },
   {
     company: "Codedamn",
     position: "Technical Content Writing Intern",
-    duration: "Sep 2022 - Feb 2023",
+    duration: "September 2022 - February 2023",
     skills:
       "Published 15 blogs in domains of Python, Web development, Data Science, Machine Learning, C++",
-    icon: "✍️",
   },
   {
     company: "CVT (Coronavirus Visualization Team)",
     position: "Research Intern",
-    duration: "Aug 2022",
+    duration: "August 2022",
     skills:
       "Analysis of the Impact of the Pandemic on School Closures due to COVID-19",
-    icon: "📊",
   },
 ];
